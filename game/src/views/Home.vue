@@ -13,8 +13,16 @@ export default {
     },
     methods: {
         createGame() {
+            
+        },
+        joinGame() {
+        },
+        init() {
             if (window.WebSocket && !window.conn) {
                 window.conn = new WebSocket("ws://localhost:38080/init");
+                conn.onopen = event => {
+                    console.log('init success.')
+                }
                 conn.onclose = event => {
                     console.log('disconnect.')
                 }
@@ -22,9 +30,10 @@ export default {
                     console.log('message', event);
                 }
             }
-        },
-        joinGame() {
         }
+    },
+    created() {
+        this.init();
     }
 };
 </script>

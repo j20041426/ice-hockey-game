@@ -1,0 +1,33 @@
+gocode			代码自动补全
+gopkgs			自动解析包
+go-outline		json自动转换
+go-symbols		json自动转换
+guru
+gorename		重命名工具
+gomodifytags	修改结构标签工具
+goplay			go语言的playground
+impl			声明接口的辅助工具
+fillstruct		初始化结构的辅助工具
+godef			查找变量定义的位置
+godoc			生成文档的工具
+goreturns		自动填充返回值的工具
+golint			go语言的lint工具
+gotests			自动生成测试代码的工具
+dlv				调试工具
+
+Installing github.com/nsf/gocode SUCCEEDED
+Installing github.com/uudashr/gopkgs/cmd/gopkgs SUCCEEDED
+Installing github.com/ramya-rao-a/go-outline SUCCEEDED
+Installing github.com/acroca/go-symbols SUCCEEDED
+Installing golang.org/x/tools/cmd/guru SUCCEEDED
+Installing golang.org/x/tools/cmd/gorename SUCCEEDED
+Installing github.com/fatih/gomodifytags SUCCEEDED
+Installing github.com/haya14busa/goplay/cmd/goplay SUCCEEDED
+Installing github.com/josharian/impl SUCCEEDED
+Installing github.com/davidrjenni/reftools/cmd/fillstruct SUCCEEDED
+Installing github.com/rogpeppe/godef SUCCEEDED
+Installing golang.org/x/tools/cmd/godoc SUCCEEDED
+Installing sourcegraph.com/sqs/goreturns SUCCEEDED
+Installing github.com/golang/lint/golint FAILED
+Installing github.com/cweill/gotests/... SUCCEEDED
+Installing github.com/derekparker/delve/cmd/dlv SUCCEEDED

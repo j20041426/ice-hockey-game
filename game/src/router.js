@@ -15,7 +15,7 @@ export default new Router({
             meta: { order: 1 }
         },
         {
-            path: "/game",
+            path: "/game/:code",
             component: () => import("@/views/Game"),
             meta: { order: 2 }
         }
